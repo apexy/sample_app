@@ -8,6 +8,7 @@ gem 'rails', '3.2.12'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 
@@ -27,6 +28,8 @@ gem 'jquery-rails'
 
 group :test do
   gem 'capybara'
+  gem 'rb-fsevent'
+  gem 'growl'
 end
 
 group :production do
